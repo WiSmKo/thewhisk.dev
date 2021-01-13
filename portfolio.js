@@ -1,0 +1,1 @@
+document.getElementById("navPortfolio").classList.add("active");
