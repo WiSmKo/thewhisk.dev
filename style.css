@@ -1,5 +1,6 @@
 body {
     font-family: 'Manrope', sans-serif;
+    text-align: center;
 }
 
 #headLogo {
@@ -29,6 +30,11 @@ a:hover {
 
 header .container-fluid{
     padding: 0;
+}
+
+h1, h2, h3 {
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 #titleBanner {

@@ -1,0 +1,72 @@
+:root {
+    --gutter: 20px;
+}
+
+.scroller {
+    padding: var(--gutter) 0;
+    display: grid;
+    grid-gap: var(--gutter) 0;
+    grid-template-columns: var(--gutter) 1fr var(--gutter);
+    align-content: start;
+}
+
+.scroller > * {
+    grid-column: 2 / -2;
+}
+
+.scroller > .full {
+    grid-column: 1 / -1;
+}
+
+.horizontalScrollList {
+    display: grid;
+    grid-gap: calc(var(--gutter) / 2);
+    grid-template-columns: repeat(6, calc(50% - var(--gutter) * 2));
+    grid-template-rows: minmax(150px, 1fr);
+
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    padding-bottom: calc(.75 * var(--gutter));
+    margin-bottom: calc(-.25 * var(--gutter));
+}
+
+
+
+
+
+
+
+html, body {
+    height: 100%;
+}
+
+img {
+    width: 50px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: gray;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.horizontalScrollList {
+    width: 375px;
+    height: 667px;
+    overflow-y: scroll;
+}
+
+.horizontalScrollList > li, .horizontalScrollItem {
+    scroll-snap-align: center;
+    padding: calc(var(--gutter) / 2 * 1.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
