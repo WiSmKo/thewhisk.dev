@@ -33,6 +33,7 @@
 }
   
 .scroller {
+    height: 40vh;
     padding: var(--gutter) 0;
     display: grid;
     grid-gap: var(--gutter) 0;
@@ -58,6 +59,7 @@
 
     overflow-x: scroll;
     scroll-snap-type: x proximity;
+    overflow-y: hidden;
     padding-bottom: calc(.75 * var(--gutter));
     margin-bottom: calc(-.25 * var(--gutter));
     padding: 0 20px;
@@ -84,6 +86,10 @@ ul {
     width: 10px;
 }
 
+.portfolioCard{
+    height: 200px;
+}
+
 
 @media (min-width: 1200px){
 
@@ -101,6 +107,14 @@ ul {
     }
 
     /* Portfolio Slider */
+
+    .scroller{
+        height: auto;
+    }
+
+    .portfolioCard{
+        height: auto;
+    }
     /* .card {
         width: 75%;
     } */
