@@ -39,6 +39,18 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
+.text-left{
+    text-align: left; 
+}
+
+.horizontal-center{
+    margin:auto;
+}
+
+.margin{
+    margin: 2em 0;
+}
+
 .card{
     border: none;
     text-align: left;
