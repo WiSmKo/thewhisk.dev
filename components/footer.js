@@ -5,9 +5,11 @@ class Footer extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
-        <footer class="pt-5">
+        <footer class="pt-5 noprint">
             <div class="container-fluid">
-                <p class="text-center fw-light fs-6">&#169;2021 William Smallman-K&#246;pf</p>
+                <p>&#169;2021 William Smallman-K&#246;pf</p>
+                <p><a href="mailto:william@thewhisk.dev">william@thewhisk.dev</a></p>
+                <p>Birmingham, UK</p>
             </div>
         </footer> 
       `;

@@ -6,7 +6,7 @@ body {
     position: relative;
     font-family: 'Manrope', sans-serif;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
 }
 
 #headLogo {
@@ -18,23 +18,31 @@ nav .list-group-item {
     border: 0;
 }
 
-header a:link{
-    border-bottom: none;
+header a:link, header a:visited{
     color: #342E2E;
 }
 
-header a:visited{
+footer a:link, footer a:visited{
     color: #342E2E;
+}
+
+header a:hover {
+    color: #8b8b8b;
 }
 
 a:link, a:visited {
     color: #000768;
     text-decoration: none;
-    border-bottom: 1px dotted;
 }
 
 a:hover {
     color: #8b8b8b;
+}
+
+
+#homeCards a:visited{
+    color: #342E2E;
+    border: none;
 }
 
 header .container-fluid{
@@ -50,7 +58,7 @@ h1, h2, h3 {
     text-align: left; 
 }
 
-.horizontal-center{
+.cvColHead{
     margin:auto;
 }
 
@@ -63,8 +71,33 @@ h1, h2, h3 {
     text-align: left;
 }
 
+/* Contact Social Page Icons */
+.contactSocials{
+    font-size: 2rem;
+    margin: auto;
+}
+
+.contactSocials a:link, .contactSocials a:visited{
+    color: #342E2E;
+}
+
+.contactSocials a:hover{
+    color: #8b8b8b;
+}
+
 @media (min-width: 1200px){
     nav {
         font-size: 1rem;
     }
+}
+
+@media print{
+    .noprint{
+        display: none;
+    }
+
+    .cvColHead{
+        margin: 0;
+    }
+
 }

@@ -5,7 +5,7 @@ class Header extends HTMLElement {
 
 connectedCallback() {
     this.innerHTML = `
-        <div class="container-fluid">
+        <div class="container-fluid noprint">
 
         <div class="row">
         <a href="index.html"><img id = "headLogo" src="images/Logo.png" class="mx-auto d-block" alt="the whisk logo"></a>
