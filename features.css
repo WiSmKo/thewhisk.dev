@@ -85,6 +85,11 @@
     height: 200px;
 }
 
+/* About Me Photo */
+.round{
+    border-radius: 100px;
+    width: 200px;
+}
 
 @media (min-width: 1200px){
 

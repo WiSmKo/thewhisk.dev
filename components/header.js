@@ -17,7 +17,6 @@ connectedCallback() {
                     <ul class="nav justify-content-center">
                         <li class="nav-item"><a class="nav-link" id="navPortfolio" href="portfolio.html">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" id="navCV" href="cv.html">Ciriculum Vitae</a></li>
-                        <li class="nav-item"><a class="nav-link" id="navServices" href="services.html">Services</a></li>
                         <li class="nav-item"><a class="nav-link" id="navAbout" href="about.html">About Me</a></li>
                         <li class="nav-item"><a class="nav-link" id="navContact" href="contact.html">Contact</a></li>
                     </ul>
