@@ -85,6 +85,10 @@ h1, h2, h3 {
     color: #8b8b8b;
 }
 
+footer p{
+    margin: 0;
+}
+
 @media (min-width: 1200px){
     nav {
         font-size: 1rem;
@@ -97,7 +101,8 @@ h1, h2, h3 {
     }
 
     .cvColHead{
-        margin: 0;
+        position: relative;
+        left: 0;
     }
 
 }
