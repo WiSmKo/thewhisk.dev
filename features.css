@@ -91,6 +91,12 @@
     width: 200px;
 }
 
+/* CV buttons */
+.docButton{
+    width: 200px;
+
+}
+
 @media (min-width: 1200px){
 
     /* Home page */

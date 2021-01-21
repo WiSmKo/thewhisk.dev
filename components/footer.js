@@ -7,10 +7,19 @@ class Footer extends HTMLElement {
       this.innerHTML = `
         <footer class="pt-5 d-print-none">
             <div class="container-fluid">
-                <p>&#169;2021 William Smallman-K&#246;pf</p>
-                <p><a href="mailto:william@thewhisk.dev">william@thewhisk.dev</a></p>
-                <p>The WHISK web design and web development services</p>
-                <p>Birmingham, UK</p>
+              <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-12 col-lg-4">
+                  <p>&#169;2021 William Smallman-K&#246;pf</p>
+                  <p><a href="mailto:william@thewhisk.dev">william@thewhisk.dev</a></p>
+                  <p>The WHISK web design and web development services</p>
+                  <p>Birmingham, UK</p>
+                </div>
+                <div class="co-12 col-lg-4 mt-5">
+                  <p>All stock photography from <a href="https://unsplash.com/">Unsplash</a></p>
+                </div>
+              </div>
             </div>
         </footer> 
 

@@ -18,16 +18,8 @@ nav .list-group-item {
     border: 0;
 }
 
-header a:link, header a:visited{
-    color: #342E2E;
-}
-
-footer a:link, footer a:visited{
-    color: #342E2E;
-}
-
-header a:hover {
-    color: #8b8b8b;
+footer a:link, footer a:visited, header a:link, header a:visited, a:link.docButton , a:visited.docButton {
+    color: inherit;
 }
 
 a:link, a:visited {
@@ -35,14 +27,12 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:hover {
+header a:hover, a:hover {
     color: #8b8b8b;
 }
 
-
-#homeCards a:visited{
-    color: #342E2E;
-    border: none;
+a:hover.docButton{
+    color: #ffffff;
 }
 
 header .container-fluid{
