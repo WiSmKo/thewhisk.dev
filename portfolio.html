@@ -37,7 +37,7 @@
         <!-- header and footer components -->
         <script src="components/header.js" type="text/javascript" defer></script>
         <script src="components/footer.js" type="text/javascript" defer></script>
-        
+        <script src="portfolio.js" type="text/javascript" defer></script>
 
 </head>
 <body>
@@ -47,7 +47,7 @@
 
     <h1>Portfolio.</h1>
     <p>A combination of professional and personal projects I have built, showcasing some of the technologies, tools and theories I am familiar with.</p>
-    <div class="scroller">
+    <div id="projectSlider" class="scroller">
         <ul class="horizontalScrollList">
 
             <li class="horizontalScrollItem">
@@ -107,7 +107,7 @@
             <li class="horizontalScrollItem">
                 <div class="card portfolioCard">
                     <a href="https://wismko.github.io/Colt-Patapap/">
-                        <img src="images/musicalKeyboard.png" class="card-img-top" alt="Code Image">
+                        <img src="images/musicalKeyboard.png" class="card-img-top" alt="Musical Keyboard App">
                     </a>
                     <div class="card-body">
                         <h3>Musical Keyboard App</h3>
@@ -121,7 +121,7 @@
             <li class="horizontalScrollItem">
                 <div class="card portfolioCard">
                     <a href="https://wismko.github.io/testimonialsSliderChallenge-FEM-/">
-                        <img src="images/FMTestimonial.png" class="card-img-top" alt="Code Image">
+                        <img src="images/FMTestimonial.png" class="card-img-top" alt="Testimonial frontend mentor challenge">
                     </a>
                     <div class="card-body">
                         <h3>Testimonial Slider</h3>
@@ -135,7 +135,7 @@
             <li class="horizontalScrollItem">
                 <div class="card portfolioCard">
                     <a href="https://wismko.github.io/FMpingComingSoon/">
-                        <img src="images/comingSoon.png" class="card-img-top" alt="Code Image">
+                        <img src="images/comingSoon.png" class="card-img-top" alt="Coming soon frontend mentor challenge">
                     </a>
                     <div class="card-body">
                         <h3>Coming Soon with Validation</h3>
@@ -149,7 +149,7 @@
             <li class="horizontalScrollItem">
                 <div class="card portfolioCard">
                     <a href="https://wismko.github.io/PricingComponent-FM-/">
-                        <img src="images/pricingComponent.png" class="card-img-top" alt="Code Image">
+                        <img src="images/pricingComponent.png" class="card-img-top" alt="pricing component frontend mentor challenge">
                     </a>
                     <div class="card-body">
                         <h3>Pricing Component with JS toggler</h3>
@@ -188,7 +188,112 @@
         </ul>
     </div>
 
-    <footer-component></footer-component>
+    <div id="john" class="sliderTest">
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://wismko.github.io/Muthers/index.html">
+                    <img src="images/muthersscnsht.png" class="card-img-top" alt="Muthers Website">
+                </a>
+                <div class="card-body">
+                    <h3>Muthers Studio Website </h3>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-bootstrap"></i>
+                </div>
+            </div>
+        </div>
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://badgirlfriendbrum.com/">
+                    <img src="images/badgrlfriendscrnsht.png" class="card-img-top" alt="Bad Girlfriend Website">
+                </a>
+                <div class="card-body">
+                    <h3>Bad Girlfriend Website</h3>
+                    <p>E-commerce band site built with <a href="https://bandzoogle.com/">bandzoogle</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://wismko.github.io/Colt-Patapap/">
+                    <img src="images/musicalKeyboard.png" class="card-img-top" alt="Musical Keyboard App">
+                </a>
+                <div class="card-body">
+                    <h3>Musical Keyboard App</h3>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                </div>
+            </div>
+        </div>
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://wismko.github.io/testimonialsSliderChallenge-FEM-/">
+                    <img src="images/FMTestimonial.png" class="card-img-top" alt="Testimonial frontend mentor challenge">
+                </a>
+                <div class="card-body">
+                    <h3>Testimonial Slider</h3>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                </div>
+            </div>
+        </div>
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://wismko.github.io/FMpingComingSoon/">
+                    <img src="images/comingSoon.png" class="card-img-top" alt="Coming soon frontend mentor challenge">
+                </a>
+                <div class="card-body">
+                    <h3>Coming Soon with Validation</h3>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                </div>
+            </div>
+        </div>
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://wismko.github.io/PricingComponent-FM-/">
+                    <img src="images/pricingComponent.png" class="card-img-top" alt="pricing component frontend mentor challenge">
+                </a>
+                <div class="card-body">
+                    <h3>Pricing Component with JS toggler</h3>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                </div>
+            </div>
+        </div>
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://wismko.github.io/FMprojectTrackingIntro/">
+                    <img src="images/projectManager.png" class="card-img-top" alt="Code Image">
+                </a>
+                <div class="card-body">
+                    <h3>Project Tracker Infomation Page</h3>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="internal">
+            <div class="card portfolioCard">
+                <a href="https://wismko.github.io/FEM4card/">
+                    <img src="images/fourCard.png" class="card-img-top" alt="Code Image">
+                </a>
+                <div class="card-body">
+                    <h3>Four Card Demo</h3>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <button id="prevButton" type="button">Previous</button>
+    <button id="nextButton" type="button">Next</button>
+
+    <footer-component></footer-component>
 </body>
 </html>
